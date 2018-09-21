@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');   //open-sans
+
+page-login {
+
+  .loginPage{
+
+    background: url("../../assets/imgs/Home-BG1.jpg") no-repeat top center;
+
+    background-size: cover;
+  }
+}
+.formGrid{
+
+  background: rgba(12,40,82,0.7) ;
+  position: center;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.errorSpan{
+  color: #ff4c4c;
+  padding-left: 38px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+.forgotPwd{
+
+  float: right;
+  color: white;
+}
+
+.form-control_loginEmail,.form-control_loginPassword{
+
+  padding: 0 12px;
+  height: 35px;
+  border: none;
+  margin-left: 42px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.inputIcon{
+  position: absolute;
+  height: 32px;
+  width: 43px;
+}
+.btnSubmit{
+  background: rgba(255,255,15,1);
+  background: -moz-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,15,1)), color-stop(100%, rgba(227,193,0,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff0f', endColorstr='#e3c100', GradientType=0 );
+  padding: 20px 5px;
+  border-radius: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  color: black;
+  font-size: 18px;
+}
+

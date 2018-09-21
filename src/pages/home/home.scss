@@ -1,0 +1,78 @@
+//$button1: linear-gradient(top, rgba(0,0,0,1) 100%, rgba(0,0,0,0.25) 60%, rgba(0,0,0,1) 30%);
+//$button2: linear-gradient(top,rgba(34,139,34,1) 100%, rgba(34,139,34,0.5) 60%,  rgba(34,139,34,0) 30%);
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');   //open-sans
+
+page-home {
+
+  .homePage{
+
+    background: url("../../assets/imgs/Home-BG1.jpg") no-repeat top center;
+
+    background-size: cover;
+
+  }
+
+}
+.btnWeb,.btnJoin,.btnArtist,.btnLogin,.btnTicket{
+
+  background: rgba(255,255,15,1);
+  background: -moz-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,15,1)), color-stop(100%, rgba(227,193,0,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff0f', endColorstr='#e3c100', GradientType=0 );
+  padding: 20px 5px;
+  border-radius: 8px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  color: black;
+  font-size: 18px;
+  font-weight:bold;
+}
+.logo{
+  display: block;
+  width: 70%;  margin: 0 auto;
+  margin-top: 40px;
+
+}
+
+.btnWeb:active,.btnJoin:active,.btnArtist:active,.btnLogin:active,.btnTicket:active{
+  background: rgba(39,44,55,1);
+  background: -moz-linear-gradient(top, rgba(39,44,55,1) 0%, rgba(29,34,41,1) 50%, rgba(14,19,27,1) 51%, rgba(4,8,14,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(39,44,55,1)), color-stop(50%, rgba(29,34,41,1)),color-stop(51%,rgba(14,19,27,1)), color-stop(100%, rgba(4,8,14,1)));
+  background: -webkit-linear-gradient(top, rgba(39,44,55,1) 0%, rgba(29,34,41,1) 50%, rgba(14,19,27,1) 51%, rgba(4,8,14,1) 100%);
+  background: -o-linear-gradient(top, rgba(39,44,55,1) 0%, rgba(29,34,41,1) 50%, rgba(14,19,27,1) 51%, rgba(4,8,14,1) 100%);
+  background: -ms-linear-gradient(top, rgba(39,44,55,1) 0%, rgba(29,34,41,1) 50%, rgba(14,19,27,1) 51%, rgba(4,8,14,1) 100%);
+  background: linear-gradient(to bottom, rgba(39,44,55,1) 0%, rgba(29,34,41,1) 50%, rgba(14,19,27,1) 51%, rgba(4,8,14,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#272c37', endColorstr='#04080e', GradientType=0 );
+  font-size: 18px;
+  padding: 20px 5px;
+  border-radius: 8px;
+  color: white;
+  font-weight:bold;
+}
+
+//.buttonFooter{
+//  margin-bottom: 7px;
+//  padding: 32px;
+//
+//}
+
+
+/*.homePage .scroll-content{ position: inherit!important;}
+.homePage ion-footer{ position: inherit!important;}*/
+
+
+/*.homePagedemomargin{  height: 50%; width: 100%; display: block;}*/
+
+.homePage ion-grid{ height: auto; position: relative;}
+
+.button_wrapper{ bottom: 0px; left: 0px; width: 100%;}
+
+.demo_margin{ height: 56vh;}
+
+

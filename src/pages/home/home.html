@@ -1,0 +1,36 @@
+<ion-header>
+  <!--<ion-navbar>-->
+    <!--<ion-title>-->
+      <!--Ionic Blank-->
+    <!--</ion-title>-->
+  <!--</ion-navbar>-->
+</ion-header>
+
+<ion-content padding class="homePage">
+  <ion-grid>
+<ion-row >
+  <ion-col col-md-12 col-lg-12 col-xl-12  text-center align-self-center style="justify-content: center;height: 100%;display: block;vertical-align: middle;">
+    <img class="logo" src="../../assets/imgs/logo.png" >
+  </ion-col>
+</ion-row>
+
+
+
+
+
+
+<div class="button_wrapper">
+  <div class="demo_margin"></div>
+
+    <button ion-button block class="btnWeb" (click)="gotoWeb()">GO TO WEBSITE</button>
+    <button ion-button block class="btnJoin">JOIN FOR FREE</button>
+    <button ion-button block class="btnLogin" [navPush]="loginpage">LOG IN</button>
+    <button ion-button block class="btnTicket">DEADLINE TICKETS</button>
+    <button ion-button block class="btnArtist">ARTIST</button>
+</div>
+
+  <!--  <ion-footer class="buttonFooter"  no-border> </ion-footer>-->
+
+  </ion-grid>
+
+</ion-content>

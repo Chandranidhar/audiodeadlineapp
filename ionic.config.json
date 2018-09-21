@@ -1,0 +1,7 @@
+{
+  "name": "audiodeadlineapp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
