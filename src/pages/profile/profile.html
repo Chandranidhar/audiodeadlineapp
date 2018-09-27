@@ -7,13 +7,51 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Profile</ion-title>
+    <ion-title text-center class="navHeader">
+      <h1 class="navText">ARTIST</h1>
+    </ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding class="profileGrid">
+
+
+  <ion-grid class="demoGrid">
+    <ion-row>
+      <ion-col col-12 class="profileImage">
+        <img src="../../assets/imgs/profilepic.jpg" >
+      </ion-col>
+
+    </ion-row>
+    <ion-row class="demo1Text">
+        <h1>LOREL IPSUM</h1>
+
+
+    </ion-row>
+    <ion-row class="demo2Text" text-center>
+      <h2 class="demo2Text1"><strong>Lorel ipsum dolor<br>
+        lorel ipsum</strong></h2>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4><ion-icon ios="ios-chatboxes" md="md-chatboxes" class="commentIcon"></ion-icon></ion-col>
+      <ion-col col-4><ion-icon name="heart-outline" ios="ios-heart-outline" md="md-heart-outline" class="heartIcon"></ion-icon></ion-col>
+      <ion-col col-4><ion-icon ios="ios-share" md="md-share" class="shareIcon"></ion-icon></ion-col>
+    </ion-row>
+
+
+
+
+  </ion-grid>
+  <ion-grid class="demoGrid">
+    <ion-row>
+    <h1 class="demo2Text1">Songs</h1>
+
+
+    </ion-row>
+
+  </ion-grid>
   <button ion-button block class="btnLogout" (click)="resetStorage()">Log out</button>
 
 </ion-content>

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import {LoginPage} from "../login/login";
+import {SignupPage} from "../signup/signup"
 import {InAppBrowser,InAppBrowserEvent } from "@ionic-native/in-app-browser";
 import {LoadingController} from "ionic-angular";
 import { SpinnerDialog } from '@ionic-native/spinner-dialog';
@@ -11,10 +12,11 @@ import { SpinnerDialog } from '@ionic-native/spinner-dialog';
 })
 export class HomePage {
   loginpage:any;
+  signupPage:any;
   constructor(public navCtrl: NavController, private iab:InAppBrowser, public loadingCtrl: LoadingController,private spinnerDialog: SpinnerDialog) {
 
     this.loginpage=LoginPage;
-
+    this.signupPage=SignupPage;
   }
   gotoWeb(){
     this.spinnerDialog.show('Loading ...');

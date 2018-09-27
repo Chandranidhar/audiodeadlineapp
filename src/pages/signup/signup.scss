@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');  //open-sans
+
+page-signup {
+
+}
+
+body{
+
+
+}
+.toolbar-background{
+  background-image: linear-gradient(#010100,#000000);
+
+}
+.signGrid{
+
+  background-color:#1A2636;
+}
+.signup1image{
+
+  text-align: center;
+  width: 100%;
+  height: 25px;
+  margin-top: 19px;
+}
+.signHeaderRow{
+  text-align: center;
+  display: block;
+  padding-top: 22px;
+
+}
+
+.signupHeader{
+
+  padding-top: 0px;
+  padding-bottom: 8px;
+  background-image: linear-gradient(#FFCE4D,#FFBA0B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 7vw;
+  font-weight: 700;
+}
+.signPara{
+
+  color: #D4D6DC;
+}
+.signdemo1{
+  background: rgba(255,255,15,1);
+  background: -moz-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,15,1)), color-stop(100%, rgba(227,193,0,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff0f', endColorstr='#e3c100', GradientType=0 );
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: space-around;
+  font-weight: bold;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.musicianRow,.modelsRow,.fansRow{
+
+  background-image: linear-gradient(#FFCF4F,#FFB907);
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 1px;
+/*  padding-bottom: 23vh;*/
+}
+.dancersRow,.affiliatesRow{
+  //color: #d8fe51;
+  background-image: linear-gradient(#d8fe51,#93df01);
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 1px;
+}
+.colmusician1{
+  display: block;
+    width: 28%!important;
+  float: left;
+  position: relative;
+  top:50%;
+  transform: translateY(50%);
+
+
+}
+.colmusician2{
+
+  float: right;
+  //margin-top: -10vh;
+  display: block;
+  width:70% !important;
+  text-align: left;
+
+  //margin-top: -14vh;
+
+}
+
+.clear-fix{ clear: both; display: block;}
+//
+//@media only screen and (max-width: 600px) {
+//
+//  .colmusician1{
+//
+//    display: flex;
+//    width: 100%!important; float: none;
+//  }
+//  .colmusician2{
+//
+//    display: flex;
+//    width: 100%!important;float: none;
+//  }
+//}
+.signup1Row{
+  background: #212B3E ;
+  border: 1px solid #2B3C59;
+  padding: 15px;
+  //border: 15px solid #212B3E;
+  margin: -10px;
+}
+//.signupCheck:checked{
+//
+//
+//}
+
+.nextButton{
+
+  background: rgba(255,255,15,1);
+  background: -moz-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,15,1)), color-stop(100%, rgba(227,193,0,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff0f', endColorstr='#e3c100', GradientType=0 );
+  padding: 20px 5px;
+  border-radius: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  color: black;
+  font-size: 18px;
+}
+.imageRow{
+  border: 5px solid rgba(255,255,255, 0.6);
+}
+
+
+.colmusician2 .checkbox-md .checkbox-icon {
+ border-width: 1px;
+  border-color: #4d4d4d;
+  background-color: #fff; border-radius: 0px;
+}
+
+.colmusician2 .checkbox-md .checkbox-checked .checkbox-inner {
+  border-color: #21BA01; left: 5px;
+  top: 1px;}
+.bar-button-default-md{
+
+  color: #C8C7C5;
+}
+
+@media only screen and (max-width: 400px) {
+
+  .colmusician1{
+
+    display: block;
+    width: 28%!important;
+    float: left;
+    position: relative;
+    top:50%;
+    transform: translateY(50%);
+      }
+  .colmusician2 .checkbox-ios .checkbox-icon {
+    border-width: 1px;
+    border-color: #4d4d4d;
+    background-color: #fff; border-radius: 0px;
+  }
+  .colmusician2 .checkbox-ios .checkbox-checked .checkbox-inner {
+    border-color: #21BA01; left: 7px;
+    top: 3px;}
+  .bar-button-default-ios{
+    color: #C8C7C5;
+  }
+}

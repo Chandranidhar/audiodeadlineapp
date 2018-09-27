@@ -6,9 +6,11 @@ import {LoginPage} from "../pages/login/login";
 import { Storage } from '@ionic/storage';
 import { HomePage } from '../pages/home/home';
 import { ResetpasswordPage } from '../pages/resetpassword/resetpassword';
+import {SignupPage} from '../pages/signup/signup';
 import {ProfilePage} from "../pages/profile/profile";
 import { Deeplinks } from '@ionic-native/deeplinks';
-
+import {SignupDetailPage} from "../pages/signup-detail/signup-detail";
+import { AlertController } from 'ionic-angular';
 @Component({
   templateUrl: 'app.html'
 })
@@ -18,6 +20,8 @@ export class MyApp {
   rootPage:any ='';
   public loginpage = LoginPage;
   public profilepage = ProfilePage;
+  public signupPage = SignupPage;
+  public signupdetailpage = SignupDetailPage;
   public routeflag = 0;
   //public resetpasswordpage = ResetpasswordPage;
 

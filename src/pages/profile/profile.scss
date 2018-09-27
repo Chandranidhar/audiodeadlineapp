@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');   //open-sans
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');  //open-sans
 
 
 page-profile {
@@ -24,4 +24,91 @@ page-profile {
   font-size: 18px;
   font-weight:bold;
 }
+.profileGrid{
+  background-color: #1D334A;
+}
 
+.navHeader{
+
+  background-color: black;
+}
+.navText{
+    //linear-gradient();
+  background-image: linear-gradient(#fef8de,#efba48);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10vw;
+  font-weight: 700;
+}
+.demoGrid{
+
+  background-color: #000000;
+  margin-top: 20px;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+.demo1Text{
+
+  text-align: center;
+  color: yellow;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.demo2Text{
+
+  text-align: center;
+  display: block;
+}
+.demo2Text1{
+  background-image: linear-gradient(grey,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.profileImage{
+
+  max-width: 36%;
+  margin: 0 auto;
+  justify-content: center;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  //align-self: center;
+  margin-top: -13vh;
+  border: 6px solid #000000;
+  background-color: #252525 !important;
+  border: 8px solid #000000;
+}
+
+.heartIcon{
+
+  color: #2888BC;
+  font-size: 40px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+
+
+}
+.shareIcon{
+
+  color: #6AAB11;
+  font-size: 40px;
+  //margin-top: -6.5vh;
+  //text-align: right;
+  //padding-right: 43px;
+  text-align: center;
+  display: block;
+}
+.commentIcon{
+  color: #C60A68;
+  font-size: 40px;
+  ////margin-top: -6.5vh;
+  //text-align: left;
+  //padding-left: 34px;
+  text-align: center;
+  display: block;
+}

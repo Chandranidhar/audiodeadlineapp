@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');  //open-sans
+
+page-signup-detail {
+
+}
+.joinusHeader{
+
+  color:#F0D813;
+  padding-top: 14px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5vh;
+  font-weight: 700;
+}
+.signdemo2{
+  background-image: linear-gradient(#0C7ED6,#31A4FD);
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 18px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: space-around;
+  color: #ffffff;
+}
+.formGrid1{
+
+  padding-bottom: 10px;
+}
+.inputForm{
+  background-color: #21262A;
+  border: 1px solid #3A3F43;
+   width: 100%;
+  padding: 5px;
+}
+.inputLabel{
+  color: #C8C7C5;
+  padding-left: 18px;
+  margin-bottom: 0px;
+
+}
+.signform{
+
+  background-color: #000000;
+
+  padding: 0 10px 10px 10px;
+
+}
+
+.signup1Row form{ width: 100%;}
+
+.label-md{  padding: 13px 8px 0 8px;
+  margin: 0px;}
+
+.signup1Row ion-select{
+  max-width: inherit;
+}
+.select-md .select-icon {
+  background-image: linear-gradient(#1E2327,#030303);
+  position: relative;
+  width: 20px;
+  height: 20px;
+
+}
+//.checkbox-md .checkbox-icon{
+//  border-width: 1px;
+//  border-color: #5A656B ;
+//  background-color: #fff;
+//  border-radius: 0px;
+//
+//  //float: left;
+//}
+.termLabel{
+
+  //text-align: left;
+  color:#C8C7C5;
+}
+.labelCol{
+  margin-left: -35px;
+  margin-top: -13px;
+}
+.getProfileBtn{
+
+
+  background: rgba(255,255,15,1);
+  background: -moz-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,15,1)), color-stop(100%, rgba(227,193,0,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,15,1) 0%, rgba(227,193,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff0f', endColorstr='#e3c100', GradientType=0 );
+  padding: 30px 5px;
+  border-radius: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  color: black;
+  font-size: 22px;
+}
+.checkbox-md .checkbox-icon {
+  border-width: 1px;
+  border-color: #4d4d4d;
+  background-color: #5A656B;
+  border-radius: 0px;
+}
+.checkbox-md .checkbox-checked .checkbox-inner {
+  border-color: #21BA01; left: 5px;
+  top: 1px;}
+@media only screen and (max-width: 400px){
+
+  .labelCol .label-ios {
+    margin-left: 23px;
+    margin-top: 15px;
+  }
+    .inputLabel{
+      padding-left: 5px;
+    }
+  .checkbox-ios .checkbox-icon {
+    border-width: 1px;
+    border-color: #4d4d4d;
+    background-color: #5A656B;
+    border-radius: 0px;
+  }
+  .checkbox-ios .checkbox-checked .checkbox-inner {
+    border-color: #21BA01; left: 7px;
+    top: 3px;}
+}

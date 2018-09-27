@@ -1,0 +1,103 @@
+<!--
+  Generated template for the SignupPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="signupNavBar">
+
+  <ion-navbar >
+    <ion-title>
+      <h1 class="signupHeader">SIGN UP</h1>
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="signGrid">
+<ion-grid>
+<ion-row class="signup1image">
+  <img src="../../assets/imgs/signup1.jpg" >
+</ion-row>
+  <ion-row class="signHeaderRow">
+
+    <h5 class="signPara">BASIC MEMBERSHIP TO THE ARTIST EXCHANGE,THE CNTRAL SOCIAL EXPERIENCE FOR THE <a style="color: #2ec95c">AUDIODEADLINE.COM</a> SHOW AND ARTISTS, IS FREE. BASIC MEMBERSHIP TO THE ARTIST EXCHANGE,THE CNTRAL SOCIAL EXPERIENCE FOR THE AUDIODEADLINE.COM SHOW AND ARTISTS, IS FREE.</h5>
+  </ion-row>
+  <ion-row class="signdemo1">
+
+    <p>WHETHER YOU ARE A FAN OR AN ARTIST, PLEASE SELECT ALL THAT APPLY TO YOU.</p>
+  </ion-row>
+  <ion-row class="signup1Row">
+    <form novalidate [formGroup]="signUpForm" (ngSubmit)="signUp()">
+        <ion-row class="musicianRow">
+          <ion-col col-md-3 class="colmusician1">
+            <img src="../../assets/imgs/profilepic.jpg" class="imageRow">
+          <!--<p>csvhcvuvcuvcuv jncnihcshiwuhncwc</p>-->
+          </ion-col>
+          <ion-col col-md-9 class="colmusician2">
+            <h5 style="position: absolute;">Musicians</h5>
+            <p style="padding-top: 10px;">Musicians! The Audiodeadline.com Artist Exchange is an oppurtunity like no other to express your music, interact with fans and best of all,trade traffic with other artists.Plus, you can complete to be on the Audiodeadline.com live broadcast!</p>
+
+            <ion-checkbox class="signupCheck"float-end [formControl]="signUpForm.controls['musician']"></ion-checkbox>
+          </ion-col>
+          <span class="clear-fix"></span>
+
+        </ion-row>
+        <ion-row class="dancersRow">
+          <ion-col col-md-3 class="colmusician1">
+            <img src="../../assets/imgs/profilepic.jpg" class="imageRow">
+            <!--<p>csvhcvuvcuvcuv jncnihcshiwuhncwc</p>-->
+          </ion-col>
+          <ion-col col-md-9 class="colmusician2">
+            <h5 style="position: absolute;">Dancer</h5>
+            <p style="padding-top: 10px;">Dancers! The Audiodeadline.com Artist Exchange is an oppurtunity like no other to express your music, interact with fans and best of all,trade traffic with other artists.Plus, you can complete to be on the Audiodeadline.com live broadcast!</p>
+            <ion-checkbox float-end class="signupCheck" [formControl]="signUpForm.controls['dancer']"></ion-checkbox>
+          </ion-col>
+
+          <span class="clear-fix"></span>
+        </ion-row>
+        <ion-row class="modelsRow">
+          <ion-col col-md-3 class="colmusician1">
+            <img src="../../assets/imgs/profilepic.jpg" class="imageRow">
+            <!--<p>csvhcvuvcuvcuv jncnihcshiwuhncwc</p>-->
+          </ion-col>
+          <ion-col col-md-9 class="colmusician2">
+            <h5 style="position: absolute;">Models</h5>
+            <p style="padding-top: 10px;">Models! The Audiodeadline.com Artist Exchange is an oppurtunity like no other to express your music, interact with fans and best of all,trade traffic with other artists.Plus, you can complete to be on the Audiodeadline.com live broadcast!</p>
+            <ion-checkbox float-end class="signupCheck" [formControl]="signUpForm.controls['model']"></ion-checkbox>
+          </ion-col>
+          <span class="clear-fix"></span>
+        </ion-row>
+        <ion-row class="affiliatesRow">
+          <ion-col col-md-3 class="colmusician1">
+            <img src="../../assets/imgs/profilepic.jpg" class="imageRow">
+            <!--<p>csvhcvuvcuvcuv jncnihcshiwuhncwc</p>-->
+          </ion-col>
+          <ion-col col-md-9 class="colmusician2">
+            <h5 style="position: absolute;">Affiliates</h5>
+            <p style="padding-top: 10px;">Affiliates! The Audiodeadline.com Artist Exchange is an oppurtunity like no other to express your music, interact with fans and best of all,trade traffic with other artists.Plus, you can complete to be on the Audiodeadline.com live broadcast!</p>
+            <ion-checkbox float-end class="signupCheck" [formControl]="signUpForm.controls['affiliate']"></ion-checkbox>
+          </ion-col>
+          <span class="clear-fix"></span>
+        </ion-row>
+        <ion-row class="fansRow">
+          <ion-col col-md-3 class="colmusician1">
+            <img src="../../assets/imgs/profilepic.jpg" class="imageRow">
+
+          </ion-col>
+          <ion-col col-md-9 class="colmusician2">
+            <h5 style="position: absolute;">Fans</h5>
+            <p style="padding-top: 10px;">Fans! The Audiodeadline.com Artist Exchange is an oppurtunity like no other to express your music, interact with fans and best of all,trade traffic with other artists.Plus, you can complete to be on the Audiodeadline.com live broadcast!</p>
+
+            <ion-checkbox float-end class="signupCheck" [formControl]="signUpForm.controls['fan']" [disabled]="getfanallowval()"></ion-checkbox>
+
+          </ion-col>
+          <span class="clear-fix"></span>
+        </ion-row>
+      <button ion-button block class="nextButton"  (click)="buttonDisable()">Next</button>
+    </form>
+
+  </ion-row>
+</ion-grid>
+</ion-content>

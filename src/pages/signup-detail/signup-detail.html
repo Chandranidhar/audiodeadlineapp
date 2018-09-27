@@ -1,0 +1,114 @@
+<!--
+  Generated template for the SignupDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>
+      <h1 class="signupHeader">SIGN UP</h1>
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="signGrid">
+  <ion-grid>
+  <ion-row class="signup1image">
+    <img src="../../assets/imgs/signup2.jpg" >
+  </ion-row>
+    <ion-row>
+      <h1 class="joinusHeader">JOIN OUR COMMUNITY FOR FREE RIGHT NOW!</h1>
+    </ion-row>
+    <ion-row class="signdemo2">
+
+      <p style="margin-top: 5px;">PLEASE FILL OUT THE FORM</p>
+    </ion-row>
+    <ion-row class="signup1Row">
+      <form novalidate [formGroup]="signUpDetailForm" (ngSubmit)="signUpDetails()">
+          <ion-row class="signform">
+            <ion-label class="inputLabel">First Name</ion-label>
+            <ion-col col-12>
+              <input [formControl]="signUpDetailForm.controls['firstname']" type="name"  class="inputForm">
+            </ion-col>
+
+          </ion-row>
+        <ion-row class="signform">
+          <ion-label class="inputLabel">Last Name</ion-label>
+          <ion-col col-12>
+            <input [formControl]="signUpDetailForm.controls['lastname']" type="name"  class="inputForm">
+          </ion-col>
+
+        </ion-row>
+        <ion-row class="signform">
+          <ion-label class="inputLabel">Gender</ion-label>
+          <ion-col col-12>
+            <ion-select class="inputForm">
+              <ion-option value="f">Female</ion-option>
+              <ion-option value="m">Male</ion-option>
+            </ion-select>
+          </ion-col>
+
+        </ion-row>
+        <ion-row class="signform">
+          <ion-label class="inputLabel">Country</ion-label>
+          <ion-col col-12>
+            <ion-select class="inputForm">
+              <ion-option value="f">Female</ion-option>
+              <ion-option value="m">Male</ion-option>
+            </ion-select>
+          </ion-col>
+
+        </ion-row>
+        <ion-row class="signform">
+          <ion-label class="inputLabel">State/Province</ion-label>
+          <ion-col col-12>
+            <ion-select class="inputForm">
+              <ion-option value="f">Female</ion-option>
+              <ion-option value="m">Male</ion-option>
+            </ion-select>
+          </ion-col>
+
+        </ion-row>
+        <ion-row class="signform">
+          <ion-label class="inputLabel">Email</ion-label>
+          <ion-col col-12>
+            <input [formControl]="signUpDetailForm.controls['email']" type="email"  class="inputForm">
+          </ion-col>
+
+        </ion-row>
+        <ion-row class="signform">
+          <ion-label class="inputLabel">Phone</ion-label>
+          <ion-col col-12>
+            <input [formControl]="signUpDetailForm.controls['phone']" type="text"  class="inputForm">
+          </ion-col>
+
+        </ion-row>
+        <ion-row class="signform">
+          <ion-label class="inputLabel">Zip Code</ion-label>
+          <ion-col col-12>
+            <input [formControl]="signUpDetailForm.controls['zip']" type="number"  class="inputForm">
+          </ion-col>
+
+        </ion-row>
+        <ion-row class="signform">
+          <ion-col col-2 >
+            <ion-checkbox class="signupCheck2" [formControl]="signUpDetailForm.controls['terms']"></ion-checkbox>
+          </ion-col>
+          <ion-col col-10 class="labelCol">
+            <ion-label class="termLabel">Accept Terms And Conditions</ion-label>
+          </ion-col>
+
+        </ion-row>
+
+        <button ion-button block class="getProfileBtn">
+          <strong>GET YOUR PROFILE</strong>
+        </button>
+      </form>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
